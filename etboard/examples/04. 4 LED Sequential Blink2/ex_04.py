@@ -46,7 +46,7 @@ while count < 1:
     PinD3.value(LOW)      # 파랑 LED 끄기
     
     count = 1             # LED를 제어하지 않기 위해 count 변수를 1로 변경
-  
+
 # ┌───────────────────────────────────────────┐
 # │                                           │
 # │(주)한국공학기술연구원 http://et.ketri.re.kr│

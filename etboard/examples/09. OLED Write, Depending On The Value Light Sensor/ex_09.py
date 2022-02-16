@@ -6,6 +6,7 @@
 # Created Date : 2021.05.31
 # Reference :
 # Modified : 2021.06.01 : LIJ : 헤더수정
+# Modified : 2022.02.16 : SJI : 소스크린징
 # ********************************************************************************
 
 # import
@@ -25,7 +26,7 @@ sensor.atten(ADC.ATTN_11DB)
 
 # main loop
 while True:
-    CDS_Value = sensor.read() / 16
+    CDS_Value = sensor.read() / 8
     print(" 조도 센서 : ", CDS_Value)
     print("---------------------")
 
